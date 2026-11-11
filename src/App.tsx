@@ -175,21 +175,21 @@ export default function App() {
           </header>
           <figure className="project-image project-image-vyre" data-reveal>
             <img
-              src="/work/vyre-01.webp"
+              src={`${import.meta.env.BASE_URL}work/vyre-01.webp`}
               alt="Vyre 01 metallic lighter identity and product campaign presentation"
             />
           </figure>
           <div className="project-gallery project-gallery-vyre" data-reveal>
             <figure>
               <img
-                src="/work/vyre-02.webp"
+                src={`${import.meta.env.BASE_URL}work/vyre-02.webp`}
                 alt="Vyre Object 001 metallic series campaign board"
                 loading="lazy"
               />
             </figure>
             <figure>
               <img
-                src="/work/vyre-03.webp"
+                src={`${import.meta.env.BASE_URL}work/vyre-03.webp`}
                 alt="Vyre Fire Meets Form product campaign board"
                 loading="lazy"
               />
@@ -206,35 +206,35 @@ export default function App() {
           <div className="project-gallery project-gallery-lace" data-reveal>
             <figure>
               <img
-                src="/work/lace-different-04.webp"
+                src={`${import.meta.env.BASE_URL}work/lace-different-04.webp`}
                 alt="Lace Different Puma shoes arranged on burgundy velvet"
                 loading="lazy"
               />
             </figure>
             <figure>
               <img
-                src="/work/lace-different-01.webp"
+                src={`${import.meta.env.BASE_URL}work/lace-different-01.webp`}
                 alt="Lace Different Puma campaign featuring burgundy lace trainers"
                 loading="lazy"
               />
             </figure>
             <figure>
               <img
-                src="/work/lace-different-02.webp"
+                src={`${import.meta.env.BASE_URL}work/lace-different-02.webp`}
                 alt="Burgundy Puma shoe with lace detailing on a red textured surface"
                 loading="lazy"
               />
             </figure>
             <figure>
               <img
-                src="/work/lace-different-03.webp"
+                src={`${import.meta.env.BASE_URL}work/lace-different-03.webp`}
                 alt="White and burgundy Puma shoes styled with patterned stockings"
                 loading="lazy"
               />
             </figure>
             <figure>
               <img
-                src="/work/lace-different-05.webp"
+                src={`${import.meta.env.BASE_URL}work/lace-different-05.webp`}
                 alt="Lace Different Puma campaign featuring burgundy shoes and white socks"
                 loading="lazy"
               />
@@ -250,7 +250,7 @@ export default function App() {
           </header>
           <figure className="project-image project-image-wide" data-reveal>
             <img
-              src="/work/mellow-packaging.png"
+              src={`${import.meta.env.BASE_URL}work/mellow-packaging.png`}
               alt="Mellow dark chocolate packaging dieline and colour specification"
               loading="lazy"
             />
@@ -258,14 +258,14 @@ export default function App() {
           <div className="project-gallery project-gallery-mellow" data-reveal>
             <figure className="mellow-mark">
               <img
-                src="/work/mellow-mark.png"
+                src={`${import.meta.env.BASE_URL}work/mellow-mark.png`}
                 alt="Mellow cocoa bean geometric brand mark"
                 loading="lazy"
               />
             </figure>
             <figure>
               <img
-                src="/work/mellow-mockup.webp"
+                src={`${import.meta.env.BASE_URL}work/mellow-mockup.webp`}
                 alt="Mellow dark chocolate packaging mockup with cocoa beans"
                 loading="lazy"
               />
@@ -282,21 +282,21 @@ export default function App() {
           <div className="project-gallery project-gallery-racer" data-reveal>
             <figure>
               <img
-                src="/work/racer-01.webp"
+                src={`${import.meta.env.BASE_URL}work/racer-01.webp`}
                 alt="Racer wired audio campaign in blue and white"
                 loading="lazy"
               />
             </figure>
             <figure>
               <img
-                src="/work/racer-02.webp"
+                src={`${import.meta.env.BASE_URL}work/racer-02.webp`}
                 alt="Listen Closer Racer wired earphones campaign"
                 loading="lazy"
               />
             </figure>
             <figure>
               <img
-                src="/work/racer-03.webp"
+                src={`${import.meta.env.BASE_URL}work/racer-03.webp`}
                 alt="Make Sound Personal Racer audio collection campaign"
                 loading="lazy"
               />
