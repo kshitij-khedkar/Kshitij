@@ -211,7 +211,7 @@ export default function App() {
           <div className="project-gallery project-gallery-lace" data-reveal>
             <figure>
               <img
-                src={`${import.meta.env.BASE_URL}work/lace-different-04.webp`}
+                src={`${import.meta.env.BASE_URL}optimized/lace-different-04.webp`}
                 alt="Lace Different Puma shoes arranged on burgundy velvet"
               decoding="async"
                 loading="lazy"
@@ -219,7 +219,7 @@ export default function App() {
             </figure>
             <figure>
               <img
-                src={`${import.meta.env.BASE_URL}work/lace-different-01.webp`}
+                src={`${import.meta.env.BASE_URL}optimized/lace-different-01.webp`}
                 alt="Lace Different Puma campaign featuring burgundy lace trainers"
               decoding="async"
                 loading="lazy"
@@ -227,7 +227,7 @@ export default function App() {
             </figure>
             <figure>
               <img
-                src={`${import.meta.env.BASE_URL}work/lace-different-02.webp`}
+                src={`${import.meta.env.BASE_URL}optimized/lace-different-02.webp`}
                 alt="Burgundy Puma shoe with lace detailing on a red textured surface"
               decoding="async"
                 loading="lazy"
@@ -235,7 +235,7 @@ export default function App() {
             </figure>
             <figure>
               <img
-                src={`${import.meta.env.BASE_URL}work/lace-different-03.webp`}
+                src={`${import.meta.env.BASE_URL}optimized/lace-different-03.webp`}
                 alt="White and burgundy Puma shoes styled with patterned stockings"
               decoding="async"
                 loading="lazy"
@@ -243,7 +243,7 @@ export default function App() {
             </figure>
             <figure>
               <img
-                src={`${import.meta.env.BASE_URL}work/lace-different-05.webp`}
+                src={`${import.meta.env.BASE_URL}optimized/lace-different-05.webp`}
                 alt="Lace Different Puma campaign featuring burgundy shoes and white socks"
               decoding="async"
                 loading="lazy"
@@ -331,7 +331,7 @@ export default function App() {
           >
             <img
               className="portrait-image"
-              src={`${import.meta.env.BASE_URL}kshitij-portrait.webp`}
+              src={`${import.meta.env.BASE_URL}optimized/kshitij-portrait.webp`}
               alt="Kshitij Khedkar in a contemplative black and white portrait"
               decoding="async"
               loading="eager"
