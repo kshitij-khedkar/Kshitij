@@ -177,6 +177,9 @@ export default function App() {
             <img
               src={`${import.meta.env.BASE_URL}work/vyre-01.webp`}
               alt="Vyre 01 metallic lighter identity and product campaign presentation"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
             />
           </figure>
           <div className="project-gallery project-gallery-vyre" data-reveal>
@@ -184,6 +187,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/vyre-02.webp`}
                 alt="Vyre Object 001 metallic series campaign board"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -191,6 +195,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/vyre-03.webp`}
                 alt="Vyre Fire Meets Form product campaign board"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -208,6 +213,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/lace-different-04.webp`}
                 alt="Lace Different Puma shoes arranged on burgundy velvet"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -215,6 +221,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/lace-different-01.webp`}
                 alt="Lace Different Puma campaign featuring burgundy lace trainers"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -222,6 +229,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/lace-different-02.webp`}
                 alt="Burgundy Puma shoe with lace detailing on a red textured surface"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -229,6 +237,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/lace-different-03.webp`}
                 alt="White and burgundy Puma shoes styled with patterned stockings"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -236,6 +245,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/lace-different-05.webp`}
                 alt="Lace Different Puma campaign featuring burgundy shoes and white socks"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -252,6 +262,7 @@ export default function App() {
             <img
               src={`${import.meta.env.BASE_URL}work/mellow-packaging.png`}
               alt="Mellow dark chocolate packaging dieline and colour specification"
+              decoding="async"
               loading="lazy"
             />
           </figure>
@@ -260,6 +271,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/mellow-mark.png`}
                 alt="Mellow cocoa bean geometric brand mark"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -267,6 +279,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/mellow-mockup.webp`}
                 alt="Mellow dark chocolate packaging mockup with cocoa beans"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -284,6 +297,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/racer-01.webp`}
                 alt="Racer wired audio campaign in blue and white"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -291,6 +305,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/racer-02.webp`}
                 alt="Listen Closer Racer wired earphones campaign"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -298,6 +313,7 @@ export default function App() {
               <img
                 src={`${import.meta.env.BASE_URL}work/racer-03.webp`}
                 alt="Make Sound Personal Racer audio collection campaign"
+              decoding="async"
                 loading="lazy"
               />
             </figure>
@@ -316,8 +332,9 @@ export default function App() {
           >
             <img
               className="portrait-image"
-              src="/kshitij-portrait.webp"
+              src={`${import.meta.env.BASE_URL}kshitij-portrait.webp`}
               alt="Kshitij Khedkar in a contemplative black and white portrait"
+              decoding="async"
               loading="lazy"
             />
             <div className="poster-top mono">
