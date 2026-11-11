@@ -327,7 +327,6 @@ export default function App() {
         <div className="about-grid">
           <div
             className="identity-poster portrait-poster"
-            data-reveal
             aria-label="Portrait of Kshitij Khedkar"
           >
             <img
@@ -335,7 +334,8 @@ export default function App() {
               src={`${import.meta.env.BASE_URL}kshitij-portrait.webp`}
               alt="Kshitij Khedkar in a contemplative black and white portrait"
               decoding="async"
-              loading="lazy"
+              loading="eager"
+              fetchPriority="high"
             />
             <div className="poster-top mono">
               <span>Visual Creative</span>
