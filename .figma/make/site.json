@@ -1,0 +1,10 @@
+{
+  "description": "Explore Kshitij Khedkar’s graphic design portfolio, featuring selected projects, creative capabilities, design approach, and contact details for clients and employers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
